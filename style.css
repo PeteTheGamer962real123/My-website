@@ -1,0 +1,39 @@
+html
+{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(43, 216, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.Button
+{
+    color: black;
+    background-color: darkgray;
+    font-size: larger;
+    font-family: 'Arial', Courier, monospace;
+    border-radius: 10px;
+    border: 50px rgb(47, 255, 82);
+}
+
+.Par
+{
+    font-family: 'Arial', Courier, monospace;
+}
